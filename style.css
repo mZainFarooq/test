@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+background-color:rgba(216, 216, 216, 0.418);
+}
+.container{
+    display: flex;
+}
+h1{
+    color: blue;
+    font-size: 55px;
+    display: inline-block;
+}
+h3{
+    display:block;
+    font-size: 25px;
+    width: 500px;
+
+}
+.main{
+margin-left: 8rem;
+margin-top: 12rem;
+}
+.form{
+    margin-left: 6rem;
+    margin-top: 8rem;
+    border-radius: 12px;
+background-color: white;
+width: 360px ;
+height: 300px;
+display: flex;
+}
+.signup-form input{
+    width: 330px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 6px;
+    margin-left:7px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+#login{
+    margin-top: 20px;
+    margin-left:7px;
+    background-color:rgba(0, 0, 255, 0.658);
+    width: 344px;
+    border-radius: 6px;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+    font-size: 22px;
+    
+}
+a{
+    font-size: 12px;
+    margin-left:8rem;
+}
+hr{
+    width: 320px;
+    margin-left: 20px;
+}
+#btn{
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 6px;
+    padding: 4px;
+    width: 320px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
